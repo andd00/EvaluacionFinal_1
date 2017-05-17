@@ -24,12 +24,57 @@
     </ul>
     <h2>Educacion</h2>
 
-    <table>      
+    <table border="1">
       <tr>
-        <th>1</th>
-        <td></td>
+        <th>Año</th>
+        <th>institucion</th>
+        <th>Lugar</th>
+        <th>¿Culmino?</th>
+      </tr>
+      <tr>
+        <td>2008</td>
+        <td>Univercidad</td>
+        <td>Lejos</td>
+        <td>si</td>
+      </tr>
+      <tr>
+        <td>2013</td>
+        <td>Otra univercidad</td>
+        <td>Mas lejos</td>
+        <td>si</td>
+      </tr>
+      <tr>
+        <td>2016</td>
+        <td>Misma univercidad</td>
+        <td>No tan lejos</td>
+        <td>no</td>
       </tr>
     </table>
+
+    <h3>Agregar Estudios</h3>
+
+    <form name="formEstudios" autocomplete="on">
+      <label for="anio">Año: </label>
+      <select id="anio">
+        <option>Seleccion</option>
+        <option>2013</option>
+        <option>2014</option>
+        <option>2015</option>
+        <option>2016</option>
+        <option>2017</option>
+      </select><br>
+      <label for="institucion">Institucion: </label>
+      <input type="text" id="institucion"><br>
+      <label for="lugar">Lugar: </label>
+      <input type="text" id="lugar"><br>
+      <label>Culmino? si </label>
+      <input type="radio" name="culmino">
+      <label>no </label>
+      <input type="radio" name="culmino"><br>
+      <input type="submit">
+
+
+    </form>
 
     <footer>
       <p>@Derechos Reservados</p>
